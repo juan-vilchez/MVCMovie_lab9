@@ -1,0 +1,21 @@
+﻿
+@{
+    //ViewBag.Title = "List";
+}
+
+
+<h1>
+    @ViewBag.Title
+</h1>
+<h1>
+    @ViewBag.Message
+</h1>
+
+
+@for (int i = 0; i < 100; i++)
+{
+    if (i % 2 == 0)
+    {
+        <p>El número es par</p> <p>@i</p>
+    }
+}
